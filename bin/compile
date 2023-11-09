@@ -35,6 +35,6 @@ echo 'export BUN_DIR="$HOME/.heroku/cache"' >> $PROFILE_PATH
 
 set +e
 
-$HOME/.bun/bin/bun install
+$HOME/.heroku/bin/bun install
 # first time will not install internal packages because of https://github.com/oven-sh/bun/issues/6347 
-$HOME/.bun/bin/bun install
+$HOME/.heroku/bin/bun install
