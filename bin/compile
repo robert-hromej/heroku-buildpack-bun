@@ -40,3 +40,4 @@ $BUN_INSTALL/bin/bun install
 # $BUN_INSTALL/bin/bun install
 
 $BUN_INSTALL/bin/bun bun.config.js
+rm package.json
