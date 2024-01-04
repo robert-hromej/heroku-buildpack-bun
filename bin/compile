@@ -37,4 +37,6 @@ set +e
 
 $BUN_INSTALL/bin/bun install
 # first time will not install internal packages because of https://github.com/oven-sh/bun/issues/6347 
-$BUN_INSTALL/bin/bun install
+# $BUN_INSTALL/bin/bun install
+
+$BUN_INSTALL/bin/bun bun.config.js
